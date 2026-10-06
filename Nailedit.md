@@ -1,22 +1,16 @@
 Nailed It : An Interactive Nail Painting Experience
 
-By: Avah Harris
+<img width="400" height="500" alt="nailed it design " src="https://github.com/user-attachments/assets/5127fe82-28a7-4259-8327-c67c8bce2cc0" />
 
-Overall Description
+## Demo Link
+https://youtu.be/WnYVodZXyZk?si=l0xPGLIDC4S3w0eW
+
 As someone who loves to have their nails done, but never likes going through the hassle of
 actually painting their nails, I wanted to try and actuate the nail painting experience. I aimed to
 create a self painting nail robot that could paint one finger at a time so the user could complete
 another task simultaneously, without spending too much time on painting their nails (especially
 for those who do not enjoy the process of painting their nails.
-Human-Machine Collaboration
-The machine supports collaborative making as its controls are based off the user. For my analog
-sensor I decided to use an ultrasonic sensor to detect the user's distance from the brush. My
-device works by detecting when the user is within 20cm from the sensor then the brush will
-begin painting the nail and will immediately stop when the user is out of range. The brush when
-activated by the user rotates from 90 to approx 135 degrees. Additionally, during my demo I
-gave the user the choice of color for polish and the user had to insert the brush into the brush
-hole to begin painting.
-how the system works - future advancements/add ons
+
 The system mainly consists of a servo motor mounted on a base and an ultrasonic sensor
 mounted to the base. I created a custom horn attachment that could hold a nail polish brush. To
 ake it more universal I decided to not focus on a whole for the cap size but instead the actual
@@ -31,3 +25,17 @@ perfect finger height, focusing on vertical distance rather than distance away f
 think it would be fun to include another analog device such as a potentiometer where the user
 could switch between two settings 1 being painting and the second being drying with a fan - I
 think this would be really cool!
+
+## Circuit Design
+[Nailed.It_.Nail.Painting.Experience.pdf](https://github.com/user-attachments/files/33113293/Nailed.It_.Nail.Painting.Experience.pdf)
+
+## 3D Printing Files
+<img width="300" height="300" alt="3D printed component" src="https://github.com/user-attachments/assets/9b6c261c-b12e-4f4b-9a42-1b863d449ba4" />
+
+<img width="300" height="300" alt="3D printed component" src="https://github.com/user-attachments/assets/a8b6813b-152f-4f07-910d-42f88ccf6610" />
+
+<img width="300" height="300" alt="Untitled 28" src="https://github.com/user-attachments/assets/dccf9b6a-934d-4d8e-a81f-5a553c63da40" />
+
+
+
+

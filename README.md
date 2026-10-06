@@ -7,7 +7,7 @@ This repository highlights projects that I have worked on throughout school in b
 - Lineform-AI ~ Shape Changing Robotic Interface embodied by AI
 - Fantasia ~ Co-Author for Fantasia. An HCI paper focusing on Human-Object Interaction Enrichment (HOIE)
 *under review for Conference in Human Factors in Computing Systems cannot show photos/videos
-- Custom MP3 Player Project
+
 
 ## Old Projects 
 - Haptic Harmony ~HCI

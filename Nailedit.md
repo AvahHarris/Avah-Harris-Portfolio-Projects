@@ -36,6 +36,68 @@ think this would be really cool!
 
 <img width="300" height="300" alt="Untitled 28" src="https://github.com/user-attachments/assets/dccf9b6a-934d-4d8e-a81f-5a553c63da40" />
 
+## Arduino Code
 
+#include <Servo.h>
+
+const int trigPin = 3;
+const int echoPin = 2;
+const int servoPin = 9;
+
+Servo myservo;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+
+  myservo.attach(servoPin);
+  myservo.write(90);   // start position
+}
+
+void loop() {
+  unsigned long duration;
+  float cm;
+
+  // Trigger ultrasonic sensor
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Read echo pulse
+  duration = pulseIn(echoPin, HIGH, 30000);
+
+  if (duration == 0) {
+    Serial.println("No reading");
+  } else {
+    cm = duration * 0.0343 / 2.0;
+
+    Serial.print("Distance: ");
+    Serial.print(cm);
+    Serial.println(" cm");
+
+    // If object is close enough, move servo
+    if (cm <= 20) {
+      myservo.write(135);   // move servo
+      delay(1000);
+      myservo.write(90);    // move back
+      delay(500);
+      myservo.write(135);   // move servo
+      delay(1000);
+      myservo.write(90);    // move back
+      delay(500);
+      myservo.write(135);   // move servo
+      delay(1000);
+      myservo.write(90);    // move back
+      delay(500);
+    }
+  }
+
+  delay(500);
+}
 
 

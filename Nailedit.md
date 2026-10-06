@@ -76,11 +76,11 @@ void loop() {
   } else {
     cm = duration * 0.0343 / 2.0;
 
-    Serial.print("Distance: ");
-    Serial.print(cm);
-    Serial.println(" cm");
+   Serial.print("Distance: ");
+   Serial.print(cm);
+   Serial.println(" cm");
 
-    // If object is close enough, move servo
+  // If object is close enough, move servo
     if (cm <= 20) {
       myservo.write(135);   // move servo
       delay(1000);

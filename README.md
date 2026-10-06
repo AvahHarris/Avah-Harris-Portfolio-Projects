@@ -15,3 +15,4 @@ This repository highlights projects that I have worked on throughout school in b
 - Gen H sensor Bracket
 - Haptic Harmony ~HCI
 - Nailed It: Interactive Nail Painting Experience
+- Advanced Rocketry Projects ~ coming soon

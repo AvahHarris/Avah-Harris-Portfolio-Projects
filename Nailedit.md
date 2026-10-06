@@ -1,4 +1,4 @@
-Nailed It : An Interactive Nail Painting Experience
+## Nailed It : An Interactive Nail Painting Experience
 
 <img width="400" height="500" alt="nailed it design " src="https://github.com/user-attachments/assets/5127fe82-28a7-4259-8327-c67c8bce2cc0" />
 

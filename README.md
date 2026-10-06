@@ -1,5 +1,6 @@
 # Avah-Harris-Portfolio-Projects
 This repository highlights projects that I have worked on throughout school in both hardware and software. 
+
 <img width="300" height="300" alt="DSCF0210" src="https://github.com/user-attachments/assets/00de5e61-5f05-4eb5-9434-b3753042824a" />
 
 
